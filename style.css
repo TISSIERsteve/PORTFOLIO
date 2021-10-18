@@ -1,0 +1,111 @@
+/* *********************************************************************************** */
+                                /* SOMMAIRE */
+
+                        /* 1. Police Ecriture */
+                        /* 2. Couleur Ecriture */
+                        /* 3. Body
+                        /* 4. Navigation */
+                        /* 5.  */
+                        /* 6.  */
+                        /* 7.  */
+                        /* 8.  */
+                        /* 9.  */
+
+/* ********************************************************************************** */
+/* 1.Police Ecriture */
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* Fin Police Ecriture */
+
+/* 2.Couleur */
+:root{
+   --color1: #91B7D9;
+   --color2: #4C5D73;
+   --color3: #ffffff;
+   --color4: #C4C4C4;
+   --color5: #e59863;
+}
+/* Fin Couleur */
+
+/* 3.BODY */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow: hidden;
+}
+/* Fin Body */
+
+/* Navigation index html*/
+.navbar-brand {
+    font-size: 2rem;
+}
+
+nav {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-item a {
+    text-decoration: none;
+    cursor: pointer;
+    background: linear-gradient( to top, var(--color5) 0%, transparent 10%) no-repeat left bottom / 0rem 100%;
+    transition: background-size .5s;
+}
+
+.nav-item a:hover{
+    background-size: 100% 100%;
+}
+
+.dropdown-item {
+    font-size: 2rem;
+}
+/* Fin Navigation index html*/
+
+.form-control {
+    width: 25rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+}
+
+.btn {
+    font-size: 1.5rem;
+}
+
+img {
+    height: 45rem;
+    border-radius: 50%;
+    box-shadow: 1rem 1rem 1rem 1rem rgb(117, 160, 147);
+}
+
+.portfolio {
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 3rem;
+}
+
+.logo {
+    width: 8rem;
+    height: 8rem;
+    margin-right: 3rem;
+    margin-top: 0.5rem;
+}
+
+/* Photo html*/
+.image {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+/* Fin Photo html */
