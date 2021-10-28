@@ -81,7 +81,8 @@ nav {
 }
 
 img {
-    height: 45rem;
+    height: 15rem;
+    margin-right: 1rem;
     border-radius: 50%;
     box-shadow: 1rem 1rem 1rem 1rem rgb(117, 160, 147);
 }
@@ -109,3 +110,9 @@ img {
     margin-top: 2rem;
 }
 /* Fin Photo html */
+
+
+.action, .action1, .description, .photo {
+    margin-top: 5rem;
+}
+
