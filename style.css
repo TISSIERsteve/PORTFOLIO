@@ -43,7 +43,12 @@ body {
 }
 /* Fin Body */
 
-/* Navigation index html*/
+
+/* Index html*/
+.action, .action1, .description, .photo {
+    margin-top: 5rem;
+}
+
 .navbar-brand {
     font-size: 2rem;
 }
@@ -68,21 +73,13 @@ nav {
 .dropdown-item {
     font-size: 2rem;
 }
-/* Fin Navigation index html*/
 
-.form-control {
-    width: 25rem;
-    height: 3.5rem;
-    font-size: 1.5rem;
-}
 
-.btn {
-    font-size: 1.5rem;
-}
-
-img {
-    height: 15rem;
-    margin-right: 1rem;
+.logo {
+    width: 8rem;
+    height: 8rem;
+    margin-right: 3rem;
+    margin-top: 0.5rem;
     border-radius: 50%;
     box-shadow: 1rem 1rem 1rem 1rem rgb(117, 160, 147);
 }
@@ -94,12 +91,16 @@ img {
     font-size: 3rem;
 }
 
-.logo {
-    width: 8rem;
-    height: 8rem;
-    margin-right: 3rem;
-    margin-top: 0.5rem;
+.carousel {
+    margin-top: 10rem;
 }
+
+.image_index {
+    margin-bottom: 12rem;
+    width: 35rem;
+    height: 25rem;
+}
+/* Fin Index html*/
 
 /* Photo html*/
 .image {
@@ -109,10 +110,36 @@ img {
     flex-wrap: wrap;
     margin-top: 2rem;
 }
+
+.image_photo {
+    height: 15rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    box-shadow: 1rem 1rem 1rem 1rem rgb(117, 160, 147);
+}
 /* Fin Photo html */
 
+/* Action html */
 
-.action, .action1, .description, .photo {
-    margin-top: 5rem;
+.ul_action {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 2rem;
 }
+/* Fin Action html */
+
+/* Action 1 html */
+.infos_action1 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.tel_action1 {
+    font-size: 1.5rem;
+}
+
+.mail_action1 {
+    font-size: 2rem;
+}
+/* Fin Action 1 html */
+
 
